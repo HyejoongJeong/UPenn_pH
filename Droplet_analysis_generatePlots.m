@@ -1,12 +1,11 @@
 %% Generate figures and plots from stored analysis data -- Bleach correction for cy3 and cy5 channels built in here
-% Emilia Leyes Porello - October 2023
+% Emilia Leyes Porello
 
 clear all
 close all
 
 % load data - user input required
 import_folder = 'D:\Upenn_since_122822\Microscope_data\Big data\2023-02-20_n_11_cell_damaged_2-NBDG\Results\pH_2-NBDG_3hr'; % copy path of results folder you want to analyze!
-% import_folder = 'G:\Shared drives\Image analysis\Results\2023-02-20 2-NBDG'; % copy path of results folder you want to analyze!
 load(strcat(import_folder,'\data_save.mat')) % load storage variables
 
 for pos = 62%10:239 % USER INPUT - which positions to generate & save plots for

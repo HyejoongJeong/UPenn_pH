@@ -4,7 +4,7 @@ function [] ...
 % Output of this function is max, mean, and median droplet intensities
 % (single-cell droplets only) as well as gfp intensity of single-cells in
 % these same droplets
-%Emilia Leyes Porello - June 2022
+% Emilia Leyes Porello
 
 %% initial variables
 

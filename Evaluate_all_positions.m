@@ -1,4 +1,5 @@
-% Combine data for all positions and plot together
+%% Combine data for all positions and plot together
+% Emilia Leyes Porello
 
 % manually load data_save.mat file for the experiment you want to evaluate
 
